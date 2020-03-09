@@ -1,0 +1,22 @@
+/*  Получить консультацию */
+.button-o {
+    padding: 15px 22px;
+    border: 2px solid #1E90FF;
+    background-color: #fff;
+    color: #1E90FF;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+}
+
+.button-o a {
+    color: #1E90FF;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+@media (max-width: 570px) {
+    .button-o {
+        font-size: 18px;
+    }
+}

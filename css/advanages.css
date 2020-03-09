@@ -1,0 +1,61 @@
+.block-advantage {
+    background-color: #fff;
+}
+
+.block-advantage__element {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-f {
+    padding: 0 20px 0 20px;
+    display: flex;
+    padding-top: 25px;
+    width: 250px;
+}
+
+.icon-f .fa-diamond {
+   padding-right: 10px;
+}
+.icon-f .fa-flag-o{
+    padding-right: 10px;
+ }
+
+ .icon-f .fa-columns {
+    padding-right: 10px;
+ }
+
+ .block-advantage__element .content {
+     width: 600px;
+ }
+
+.block-advantage__element .content h4 {
+    color: #383c45;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.block-advantage__element .content {
+    text-align: left;
+    max-width: 100%;
+}
+
+.block-advantage__element .content p {
+    color: #262626;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.block-advantage__element .plan {
+    padding-top: 20px;
+    width: 300px;
+}
+
+.block-advantage__element .plan p {
+   display: inline;
+   color: #383c45;
+   font-size: 17px;
+}
+
+.block-advantage__element .plan span {
+    color: #828f9e;
+}

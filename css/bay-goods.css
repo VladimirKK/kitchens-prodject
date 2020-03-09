@@ -1,0 +1,59 @@
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h5 {
+    font: 24px 'RCR';
+    color: #383c45;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.bay_goods {
+    background-color: #e6eded;
+}
+
+.content_order {
+    padding: 10px 0 15px 15px;
+}
+
+.content_order ul {
+    display: inline-block;
+    margin: 0;
+}
+
+.content_order ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.content_order  .price {
+    float: right;
+    margin: 0 20px 0 0;
+}
+
+.goods_order img {
+    width: 480px;
+    height: 260px;
+}
+
+.bay_goods-order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.goods_order {
+   margin: 0 20px 20px 0;
+   background-color: #fff;
+}
+
+.order__botton {
+    margin: auto;
+}

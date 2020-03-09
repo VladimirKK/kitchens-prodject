@@ -1,0 +1,25 @@
+@import 'grid.css';
+
+/*  Шапка сайта */
+@import 'navbar.css';
+
+@import 'interface.css';
+
+@import 'hero.css';
+
+@import 'block-info.css';
+
+@import 'advanages.css';
+
+@import 'form.css';
+
+@import 'slider.css';
+
+@import 'bay-goods.css';
+
+/*  Цвета для сайта 
+
+мелкие элементы - #262626
+основной цвет - 1E90FF
+заголовки - #fff
+*/

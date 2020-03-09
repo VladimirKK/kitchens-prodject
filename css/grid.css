@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 1000px;
+}
+
+.parallax-window {
+    min-width: 600px;
+    background: transparent;
+    height: 400px;
+    background-size: cover;
+ }
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+ 
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 990px;
+    } 
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    } 
+}
+
+@media (max-width: 750px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    } 
+}

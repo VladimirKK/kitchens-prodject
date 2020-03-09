@@ -1,0 +1,104 @@
+.form__box {
+    width: 100%;
+    background-image: url('../img/tyl.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form_box {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+ .form__box .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+ }
+ 
+ #form {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: #1E90FF #1E90FF #87299e #87299e;
+    border-style: solid;
+    border-width: 4px;
+    padding: 15px;
+ }
+
+ #form div {
+     text-align: center;
+ }
+
+input {
+  height: 60px;
+  width: 260px;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+input:last-child  {
+    margin-bottom: 15px;
+}
+
+.form__box button {
+    padding: 15px 22px;
+    border: 2px solid #1E90FF;
+    background-color: #fff;
+    color: #1E90FF;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+}
+#form button {
+    margin: 5px auto;
+}
+
+ input[type="checkbox"] {
+    display: none;
+}
+
+ input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    border: 1px solid #000;
+    cursor:pointer;
+}
+
+ input[type="checkbox"]:checked + label span {
+    background: #1E90FF left top no-repeat;
+    background-position: cover;  
+}
+
+.form__box_otziv h4 {
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+.form__box_otziv h4 span {
+    font-size: 30px;
+}
+
+/*  rgba('30, 144, 255, 0.6') */
+.form__box_otziv h4 {
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+#fr-popup {
+    max-width: 420px;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}

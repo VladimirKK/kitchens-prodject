@@ -1,0 +1,33 @@
+.hero {
+    background: #f1f1f1 url('img/sin_bg.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 220px;
+
+}
+
+@media (max-width: 760px) {
+   .hero {
+    padding-top: 80px;
+    padding-bottom: 150px;
+   }
+ 
+}
+@media (max-width: 991px) {
+    .hero {
+        background-size: 100%;
+        background-position: top 40px left;
+    }
+}
+
+.hero-title {
+    width: 270px;
+    font-weight: normal;
+}
+.hero-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #262626;
+    display: block;
+    padding-bottom: 20px;
+}

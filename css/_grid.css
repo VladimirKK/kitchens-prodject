@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.parallax-window {
+   min-width: 600px;
+   background: transparent;
+}
